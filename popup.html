@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Helper Popup</title>
+
+    <link rel="stylesheet" href="css/popup.css">
+</head>
+<body>
+    <div class="resizer">
+        <a data-size="xs">
+            xs
+        </a><a data-size="sm">
+            sm
+        </a><a data-size="md">
+            md
+        </a><a data-size="lg">
+            lg
+        </a>
+    </div>
+    <div class="extra-functions">
+        <a id="btn-duplicate">
+            <img src="img/icon-duplicate.svg" alt="Duplicate" title="Duplicates the current tab">
+        </a>
+        <!-- At final use on button (choose by .js if current page is duplicate or not) -->
+        <!--a id="btn-reload-duplicates">
+            <img src="img/icon-reload-duplicates.svg" alt="Reload Duplicate" title="Duplicate the current tab">
+        </a-->
+    </div>
+    <div class="doc-links">
+        <h2>
+            Doc
+        </h2>
+        <h3>
+            <a href="http://getbootstrap.com/getting-started/" target="_blank">
+                Getting Started
+            </a>
+        </h3>
+        <h3>
+            <a href="http://getbootstrap.com/css/" target="_blank">
+                CSS
+            </a>
+        </h3>
+        <h3>
+            <a href="http://getbootstrap.com/components/" target="_blank">
+                Components
+            </a>
+        </h3>
+        <h3>
+            <a href="http://getbootstrap.com/javascript/" target="_blank">
+                Javascript
+            </a>
+        </h3>
+        <h3>
+            <a href="http://getbootstrap.com/customize/" target="_blank">
+                Customize
+            </a>
+        </h3>
+    </div>
+    <div class="extras">
+        <button id="btn-options">
+            <!--span class="glyphicon glyphicon-cog" aria-hidden="true"></span-->
+            ⚙
+        </button>
+    </div>
+
+
+    <!--script src="js/jquery.min.js"></script-->
+    <script src="js/zepto.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-helpers.js"></script>
+    <script type="text/javascript" src="js/popup.js"></script>
+</body>
+</html>
